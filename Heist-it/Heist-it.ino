@@ -24,14 +24,14 @@ bool fireHit     = false;
 bool lastEncoder = false;
 bool gameStart   = false;
 
-enum Move { DIAL, FIRE, JIGGLE };
+enum Move { DIAL, FIRE, JIGGLE };  //Our three commands
 
-void greenOn() {
+void greenOn() {   //Green
   digitalWrite(GREEN_LED, HIGH);
   digitalWrite(RED_LED, LOW);
 }
 
-void redOn() {
+void redOn() {   //red
   digitalWrite(GREEN_LED, LOW);
   digitalWrite(RED_LED, HIGH);
 }
@@ -76,9 +76,9 @@ void pollEncoder() {
   bool current = (analogRead(ENCODER_PIN) > 512);
   if (current && !lastEncoder) {
     if (!playing)
-      gameStart = true;
+    gameStart = true;
     else
-      dialCount++;
+    dialCount++;
   }
   lastEncoder = current;
 }
@@ -167,7 +167,7 @@ void oledData(uint8_t data) {
   Wire.endTransmission();
 }
 
-void oledInit() {
+void oledInit() {   //OLED Commands
   delay(100);
   oledCmd(0xAE);
   oledCmd(0xA8); oledCmd(0x3F);
@@ -248,13 +248,20 @@ const uint8_t font5x7[][5] = {
 };
 
 int charIndex(char c) {
-  if (c >= 'A' && c <= 'Z') return c - 'A';
-  if (c >= '0' && c <= '9') return c - '0' + 26;
-  if (c == ' ') return 36;
-  if (c == '!') return 37;
-  if (c == ':') return 38;
-  if (c == '-') return 39;
-  if (c == ')') return 40;
+  if (c >= 'A' && c <= 'Z') 
+  return c - 'A';
+  if (c >= '0' && c <= '9') 
+  return c - '0' + 26;
+  if (c == ' ') 
+  return 36;
+  if (c == '!') 
+  return 37;
+  if (c == ':') 
+  return 38;
+  if (c == '-') 
+  return 39;
+  if (c == ')') 
+  return 40;
   return 36;
 }
 
@@ -368,22 +375,36 @@ Move pickMove() {
 void giveCommand(Move m) {
   resetDial();
   resetFire();
-  if (m == DIAL)   { play(1); showCommand("DIAL IT!");   }
-  if (m == FIRE)   { play(2); showCommand("FIRE IT!");   }
-  if (m == JIGGLE) { play(3); showCommand("JIGGLE IT!"); }
+  if (m == DIAL)   { 
+    play(1); 
+    showCommand("DIAL IT!");  
+     }
+  if (m == FIRE)   { 
+    play(2); 
+    showCommand("FIRE IT!");   }
+  if (m == JIGGLE) { 
+    play(3); 
+    showCommand("JIGGLE IT!"); 
+    }
 }
 
 bool gotItRight(Move m) {
-  if (m == DIAL)   return getDial() >= 5;
-  if (m == FIRE)   return fireDetected();
-  if (m == JIGGLE) return getDial() >= 20;
+  if (m == DIAL)   
+  return getDial() >= 5;
+  if (m == FIRE)  
+   return fireDetected();
+  if (m == JIGGLE) 
+  return getDial() >= 20;
   return false;
 }
 
 bool gotItWrong(Move m) {
-  if (m == DIAL)   return fireDetected();
-  if (m == FIRE)   return getDial() >= 5;
-  if (m == JIGGLE) return fireDetected();
+  if (m == DIAL)   
+  return fireDetected();
+  if (m == FIRE)  
+   return getDial() >= 5;
+  if (m == JIGGLE) 
+  return fireDetected();
   return false;
 }
 
