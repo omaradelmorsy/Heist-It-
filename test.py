@@ -1,2 +1,0 @@
-# hihihihihihihihi
-print("Green")
