@@ -1,0 +1,24 @@
+------------------------------------------------------------------------------------------
+Gerber File Extension Report For: Bopit.GBR   3/31/2026  1:54:41 PM
+------------------------------------------------------------------------------------------
+
+
+------------------------------------------------------------------------------------------
+Layer Extension     Layer Description                      
+------------------------------------------------------------------------------------------
+.gbr                Top Overlay                             
+.gbr                Top Paste                               
+.gbr                Top Solder                              
+.gbr                Top Layer                               
+.gbr                Bottom Layer                            
+.gbr                Bottom Solder                           
+.gbr                Bottom Paste                            
+.gbr                Top Assembly                            
+.gbr                Top 3D Body                             
+.gbr                Top Courtyard                           
+.gbr                Top Component Center                    
+.gbr                Keep-Out Layer                          
+.gbr                Top Pad Master                          
+.gbr                Bottom Pad Master                       
+.gbr                Profile                                 
+------------------------------------------------------------------------------------------

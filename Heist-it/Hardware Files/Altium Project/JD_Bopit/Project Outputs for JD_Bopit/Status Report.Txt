@@ -1,0 +1,13 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [JD_Bopit.PrjPcb]
+   Generated File[Bopit.TXT]
+   Generated File[Bopit.DRL]
+   Generated File[Bopit.LDP]
+   Generated File[Bopit.DRR]
+
+
+Files Generated   : 4
+Documents Printed : 0
+
+Finished Output Generation At 1:55:52 PM On 3/31/2026

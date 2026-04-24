@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Bopit.PcbDoc   3/31/2026  1:55:52 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Bopit.TXT
+EIA File   : Bopit.DRL
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      28mil (0.701mm)                                           Round             20        PTH        11.11inch (282.30mm)
+T2      30mil (0.749mm)                                           Round             14        PTH        8.61inch (218.79mm)
+T3      32mil (0.8mm)                                             Round             2         PTH        0.73inch (18.46mm)
+T4      35mil (0.889mm)                                           Round             8         PTH        4.87inch (123.60mm)
+T5      35mil (0.899mm)                                           Round             28        PTH        3.70inch (93.98mm)
+T6      39mil (1.001mm)                                           Round             3         PTH        0.20inch (5.08mm)
+T7      40mil (1.021mm)                                           Round             27        PTH        10.26inch (260.69mm)
+T8      49mil (1.25mm)                                            Round             4         PTH        0.86inch (21.85mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              106
+
+Total Processing Time (hh:mm:ss) : 00:00:00

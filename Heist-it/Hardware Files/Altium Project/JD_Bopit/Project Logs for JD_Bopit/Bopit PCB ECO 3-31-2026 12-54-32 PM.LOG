@@ -1,0 +1,42 @@
+Added Pin To Net: NetName=GND Pin=Dial-1
+Added Pin To Net: NetName=NetC3_2 Pin=Dial-3
+Added Pin To Net: NetName=NetC6_1 Pin=J1-2
+Added Pin To Net: NetName=GND Pin=J1-3
+Added Pin To Net: NetName=GND Pin=Jiggle-1
+Added Pin To Net: NetName=GND Pin=OLED-3
+Added Pin To Net: NetName=NetC3_2 Pin=OLED-4
+Added Pin To Net: NetName=GND Pin=P1-5
+Added Pin To Net: NetName=NetC3_2 Pin=P1-6
+Added Pin To Net: NetName=GND Pin=POWER-2
+Added Pin To Net: NetName=NetDial_2 Pin=Dial-2
+Added Pin To Net: NetName=NetDial_2 Pin=Microcontroller-23
+Added Net: Name=NetDial_2
+Added Pin To Net: NetName=NetJ1_1 Pin=J1-1
+Added Pin To Net: NetName=NetJ1_1 Pin=Microcontroller-16
+Added Net: Name=NetJ1_1
+Added Pin To Net: NetName=NetJiggle_2 Pin=Jiggle-2
+Added Pin To Net: NetName=NetJiggle_2 Pin=U1-3
+Added Net: Name=NetJiggle_2
+Added Pin To Net: NetName=NetJiggle_3 Pin=Jiggle-3
+Added Pin To Net: NetName=NetJiggle_3 Pin=Microcontroller-27
+Added Pin To Net: NetName=NetJiggle_3 Pin=OLED-1
+Added Net: Name=NetJiggle_3
+Added Pin To Net: NetName=NetJiggle_4 Pin=Jiggle-4
+Added Pin To Net: NetName=NetJiggle_4 Pin=Microcontroller-28
+Added Pin To Net: NetName=NetJiggle_4 Pin=OLED-2
+Added Net: Name=NetJiggle_4
+Added Pin To Net: NetName=NetP1_3 Pin=P1-3
+Added Pin To Net: NetName=NetP1_3 Pin=R6-2
+Added Net: Name=NetP1_3
+Added Pin To Net: NetName=NetP1_4 Pin=P1-4
+Added Pin To Net: NetName=NetP1_4 Pin=R7-2
+Added Net: Name=NetP1_4
+Added Pin To Net: NetName=NetP2_5 Pin=P2-5
+Added Pin To Net: NetName=NetP2_5 Pin=Speaker-2
+Added Net: Name=NetP2_5
+Added Pin To Net: NetName=NetP2_6 Pin=P2-6
+Added Pin To Net: NetName=NetP2_6 Pin=Speaker-1
+Added Net: Name=NetP2_6
+Added Pin To Net: NetName=NetPOWER_1 Pin=POWER-1
+Added Pin To Net: NetName=NetPOWER_1 Pin=S1-2
+Added Net: Name=NetPOWER_1
